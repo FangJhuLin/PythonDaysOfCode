@@ -1,0 +1,16 @@
+#Day 6: Write a program to count the occurrences of a specific character in a string.
+
+while True:
+#input introduction:
+    string = input('please input something, could be anything:')
+    x = input('tell me the character you want to count:')
+    
+    # check if it does input something, not null
+    if bool(string) == 1 and bool(x)==1:
+        string_count = string.count(x)
+        print(f'I found {string_count} {x}!')
+      
+        
+    else:
+        print('you did not input anything, try again.')
+    
