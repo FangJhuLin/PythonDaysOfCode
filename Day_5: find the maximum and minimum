@@ -1,0 +1,16 @@
+#Day 5: Write a program to find the maximum and minimum values in a list.
+
+#enter a list, and split by space
+list = input('Please enter the numbers of the list separated by a space: ').split()
+
+# check if it does input a list, not null
+if not list:
+    print('The list has invalid values. Please enter the numbers of the list separated by a space:')
+else:
+    try:
+        list = [float(x) for i, x in enumerate(list)]
+        
+        print(f'The maximum of the list is {max(list)}')
+        print(f'The minimum of the list is {min(list)}')
+    except:
+        print('The list has invalid values')
