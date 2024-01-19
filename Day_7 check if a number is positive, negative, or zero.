@@ -1,0 +1,19 @@
+while True:
+    #all the input are default as string type.
+    x = input('Please give me a number, do not use"," please use"." as a decimal point:')
+    
+    try:
+        #check if it's a number.
+        x = float(x)
+        
+        if float(x) == 0:
+            print('it\'s a zero.')
+            
+        elif float(x) < 0:
+            print('it\'s negative.')
+            
+        else: 
+            print('it\'s positive.')
+            
+    except ValueError:   
+         print('it\'s not a number, try again.')  
