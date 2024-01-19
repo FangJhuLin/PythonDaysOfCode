@@ -1,0 +1,21 @@
+#Day 9: Write a program to check if a number is even or odd.
+"""
+thoughts:
+    1. if x % 2 ==0, even.
+    2. else are odd number.
+"""
+
+while True:
+    x = input("please give me an interger:")
+    
+    try:
+        #check if it's a number.
+        #檢查使用者是否輸入數字。
+        if int(x)%2 == 0:
+            print("It\'s an even unmber.")
+            
+        else:
+            print("It\'s an odd number.")
+            
+    except:
+        print('It\'s not a number, try again.')
