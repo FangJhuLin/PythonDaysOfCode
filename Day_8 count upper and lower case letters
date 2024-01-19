@@ -1,0 +1,28 @@
+#Day 8: Write a function that accepts a string and calculates the number of uppercase and lowercase letters in it.
+"""
+thoughts:
+    1. count uppercase 數大寫字母
+    2. count lowercase 數小寫字母
+    3. def a function 包進function裡面
+"""
+
+def count_upper_lower(string):
+    lowercase_count = 0
+    uppercase_count = 0
+    
+    for U in string:
+        if U.isupper():
+            uppercase_count += 1
+            
+        elif U.islower():
+            lowercase_count += 1
+            
+    return lowercase_count, uppercase_count 
+    # in a function, anything after return will be ignored, the function ended with return.
+    # return後面的東西都會被函式忽略。
+        
+string = input('Please input a string:') 
+lowercase_count, uppercase_count = count_upper_lower(string)
+
+print(f'The number of uppercase latters is:{uppercase_count}')
+print(f'The number of lowercase latters is:{lowercase_count}')   
