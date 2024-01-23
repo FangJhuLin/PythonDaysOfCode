@@ -1,0 +1,11 @@
+#Day 11: Write a program to print the multiplication table of a given number.
+
+
+
+while True:
+    x = int(input('Please enter a number: '))
+    i = 0
+    print(f'multiplication table of {x}:')
+    while i < 20:
+        print(f'{x} x {i} = {x*i}')
+        i = i + 1   
