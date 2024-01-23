@@ -1,0 +1,8 @@
+#Day 10: Write a program to remove duplicates from a list.
+
+while True:
+
+#enter a list x, and split by space
+    x = input('Please enter a list separated by a space: ').split()
+    x = set(x)
+    print(x)
