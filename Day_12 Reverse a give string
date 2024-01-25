@@ -1,0 +1,8 @@
+#Day 12: Write a program to reverse a given string.
+
+x = input('Please enter a string: ')
+i = 0
+for i in range(len(x)):
+    i = i + 1
+    print(x[-i], end='')
+    #end='' means not to start a new line. 不要換行。  
