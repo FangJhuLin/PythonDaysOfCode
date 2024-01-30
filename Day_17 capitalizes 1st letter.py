@@ -9,7 +9,6 @@ Return a copy of the string with its first character capitalized and the rest lo
 -str.title()
 Make the first letter in each word upper case.
 """
-import re
 
 def cap(x):
     x = x.title()
