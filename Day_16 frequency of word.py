@@ -20,7 +20,7 @@ replace() is method of string, not list.
 Therefore, if we split the sentence first, we get a list, then lower() and split() won't work.
 
 
-Question: I don't know what to do with "isn't, doesn't, didn't..." yet, these type of words is splited.
+Question: I don't know what to do with "isn't, doesn't, didn't..." yet, these type of words is splitted.
 """
 import string
 
