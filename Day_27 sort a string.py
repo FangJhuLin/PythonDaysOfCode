@@ -5,6 +5,8 @@ def sorting_list(x):
         return('You didn\'t put a string, try again')
     
     else:
+        for i in x:
+            i = i.lower()
         x.sort()
         return(x)
 
